@@ -40,7 +40,7 @@ void solve(){
         v[i] = {dur, ded};
     }
      sort(v.begin(),v.end());
-     //complete short duration tasks first
+     //complete short duration tasks first greedily
     ll curr = 0;
     ll res = 0;
 
