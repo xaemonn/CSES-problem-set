@@ -42,6 +42,8 @@ void solve(){
         v[i] = {num, i+1};
     }
 
+    //n=5000
+
     sort(v.begin(),v.end());
 
     ll curr = 0;
